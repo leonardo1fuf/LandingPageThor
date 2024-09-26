@@ -1,0 +1,88 @@
+#### Para Importar o Boostrap no Projeto ########
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+
+#### Para Importar o NavBar da Documentação do Bootstrap #####
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo-whiletrue.png" alt="Logo Whiletrue" width="30" height="24">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+######## Para importar Conteúdo da Landing Page ########
+
+    <section class="conteudo position-relative pt-5">
+        <div class="backdrop-cima-secao-conteudo position-absolute"></div>
+        <div class="div-ingresso d-flex justify-content-center">
+            <div class="max-width">
+                <div class="d-flex justify-content-center">
+                    <img class="img-fluid img-titulo-filme" src="assets/img/secao-principal/titulo.png">
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                    <h2 class="titulo-conteudo">Garanta seu ingresso hoje mesmo clicando no botão comprar agora!</h2>
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                    <a href="https://m.ingresso.com/filme/thor-amor-e-trovao?partnership=home" class="btn btn-round btn-theme">Comprar Agora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+####### Para importar CSS da Landing Page #################
+
+.div-ingresso{
+    margin-top: 230px;
+}
+
+.max-width{
+    max-width: 600px;
+}
+
+.titulo-conteudo{
+    font-size: 150%;
+}
+
+.img-titulo-filme{
+    max-width: 600px;
+    width: 100%;
+    mix-blend-mode: screen;
+}
+
+.btn-theme{
+    background: linear-gradient(345deg, rgb(73, 12, 176) 0%, rgb(155, 52, 239) 33%, rgba(255, 255, 255, 0) 66%, rgba(255, 255, 255, 0) 100%) 99% 50% / 400% 400%;
+    border: 2px solid transparent;
+    color: rgb(255, 255, 255);
+    padding: 5px 30px;
+    transition: all 0.5s ease 0s !important;
+    font-weight: 600;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
